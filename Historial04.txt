@@ -1,0 +1,139 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  cd..
+    7  cd
+    8  sudo
+    9  pwd
+   10  cd..
+   11  cd ..
+   12  pwd
+   13  cd /
+   14  pwd
+   15  ls
+   16  ls -l
+   17  ls -l -s
+   18  ls -l -S
+   19  ls -l -r
+   20  ls -r -l
+   21  ls -ltha
+   22  ls -lr
+   23  ls -l
+   24  tree
+   25  clear
+   26  history
+   27  fhs
+   28  cd
+   29  etc
+   30  efc
+   31  cd /
+   32  efc
+   33  /efc
+   34  efc
+   35  dc efc
+   36  cd etc
+   37  cd /home/alumno/
+   38  echo hola > saludar.txt
+   39  ls -lath
+   40  cd /boot
+   41  ls -lath
+   42  cd /var/lock
+   43  ls -lath
+   44  cd /var/run
+   45  ls -lath
+   46  cd /var/
+   47  ls -lath
+   48  cd /tmp/
+   49  ls -lath
+   50  cd /usr/bin/
+   51  ls -lath
+   52  cd ..
+   53  du /b
+   54  du /bin
+   55  dumg /bin
+   56  du mg /bin
+   57  du -h /bin
+   58  cd ..
+   59  cd /opt/
+   60  du -h /opt
+   61  ls -lath
+   62  cd /etc/opt/
+   63  ls -lath
+   64  cd /opt/
+   65  ls
+   66  cd ..
+   67  ls
+   68  cd 
+   69  ls
+   70  cp /Descagas/imagen.png
+   71  cp /imagen.png
+   72  cp ..
+   73  cd ..
+   74  cp cd
+   75  cd
+   76  cp /home/alumno/Descargas/imagen.png 
+   77  cp imagen.png  /home/alumno/Descargas/ 
+   78  cp -r  /home/alumno/Descargas/imagen.png 
+   79  cp /home/alumno/Descargas>imagen.png 
+   80  cp /home/alumno/Descargas.>imagen.png 
+   81  cp imagen.png /home/alumno/Descargas/
+   82  cp /home/alumno/Descargas/imagen.png  /home/alumno/Imágenes/
+   83  cp /home/alumno/Descargas/imagen.png  /home/alumno/
+   84  pwd
+   85* cp ..(../alumno/Descargas/)
+   86  cp /home/alumno/Descargas/imagen.png  /home/alumno/
+   87  cp /home/alumno/Descargas/imagen  /home/alumno/
+   88  cp /home/alumno/Descargas/imagenh  /home/alumno/
+   89  history
+   90  mkdir -p Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/{usu01}},Recursos-Humanos/{Archivos,Usuarios/{usu02}}}
+   91  cd /home/alumno/Sistemas/
+   92* mo
+   93  mkdir -p Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},Recursos-Humanos/{Archivos,Usuarios/usu02}}
+   94  tree
+   95  cd
+   96  mkdir -p Sistemas/{Contabilidad/{Archivos,Recursos,Usuarios/usu01},Recursos-Humanos/{Archivos,Usuarios/usu02}}
+   97  cd ./Sistemas/
+   98  three
+   99  tree
+  100  echo -p "" > ../Sistemas/Contabilidad/Recursos/recur_conta.txt
+  101  three
+  102  tree
+  103  echo -p "Recurso contable general" > ./Contabilidad/Recursos/recur_conta.txt 
+  104  echo  "Recurso contable general" > ./Contabilidad/Recursos/recur_conta.txt 
+  105  cd
+  106  cat /stc/passwd
+  107  cat /etc/passwd
+  108  man cat
+  109  more /etc/passwd
+  110  man more
+  111  less /etc/passwd
+  112  more /etc/passwd
+  113  man rn
+  114  man rm
+  115  man rmdir
+  116  man rm
+  117  more /etc/passwd
+  118  less /etc/passwd
+  119  clear
+  120  cat ./Sistemas/Contabilidad/Recursos/recur_conta.txt 
+  121  cp ./Sistemas/Contabilidad/Recursos/recur_conta.txt ./Sistemas/Recursos-Humanos/Archivos/
+  122  cp ./Sistemas/Recursos-Humanos/Archivos/recur_conta.txt recu_rh.txt
+  123  rm ./recu_rh.txt 
+  124  mv ./Sistemas/Recursos-Humanos/Archivos/recur_conta.txt  recu:rh.txt
+  125  cp ./Sistemas/Contabilidad/Recursos/recur_conta.txt ./Sistemas/Recursos-Humanos/Archivos/
+  126  mv ./Sistemas/Recursos-Humanos/Archivos/recur_conta.txt  recu:rh.txt
+  127  cp ./Sistemas/Contabilidad/Recursos/recur_conta.txt ./Sistemas/Recursos-Humanos/Archivos/
+  128  rm ./recu_rh:txt 
+  129  rm ./recu:rh.txt 
+  130  cd ./Sistemas/Recursos-Humanos/Archivos/ && mv ./recur_conta.txt recu_rh.txt
+  131  cd
+  132  cp ./Sistemas/Recursos-Humanos/Archivos/recu_rh.txt ./Sistemas/Recursos-Humanos/Usuarios/usu02/"recu_rh_usu02.txt"
+  133  rm ./hola/quehaces/
+  134  rmdir ./hola/quehaces/
+  135  rm ./hola/saludar.txt 
+  136  rm ./Sistemas/Contabilidad/Recursos/recur_conta.txt 
+  137  cat ./Sistemas/Recursos-Humanos/Usuarios/usu02/recu_rh_usu02.txt 
+  138  rmdir ./Sistemas/Contabilidad/Recursos/
+  139  history > Historial04.txt
