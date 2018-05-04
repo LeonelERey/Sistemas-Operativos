@@ -104,3 +104,70 @@
   104  ls /media/ && echo "hoola"
   105  tree
   106  history > "historial05"
+  107  apt
+  108  man apt
+  109  ls /etc/apt
+  110  sur.lis
+  111  cat sur.list
+  112  cat sur.lis
+  113  cat etc/apt/sources.list
+  114  cat /etc/apt/sources.list
+  115  ls var/lib apt
+  116  ls var/lib 
+  117  ls var/lib
+  118  ls /var/lib/apt
+  119  ls /var/lib
+  120  ls /var
+  121* ls 
+  122  ls /var/lib/list
+  123  ls /var/lib/apt/lists/
+  124  atp check
+  125  apt check
+  126  apt -getcheck
+  127  apt -get check 
+  128  apt-get check 
+  129  sudo apt-get check
+  130  sudo apt-get update 
+  131  sudo apt-get upgrade 
+  132  sudo apt-get disupgrade 
+  133  sudo apt-get upgrade 
+  134  sudo apt-get dist-upgrade 
+  135  sudo apt-get clean
+  136  apt-get clean
+  137  apt-get autoclean 
+  138  ls
+  139  ls /var/cache/apt/
+  140  ls /var/cache/apt/archives/
+  141  ls /var/cache/apt/archives
+  142  apt-cache search sd
+  143  apt-cache search sdds
+  144  apt-get install terminator
+  145  sudo apt-get install terminator
+  146  sudo apt-get -f install terminator
+  147  sudo apt-get -f reinstall terminator
+  148  sudo apt-get -- reinstall terminator
+  149  apt-get -f reinstall terminator
+  150  sudo apt-get -f install mc
+  151  mc
+  152  dpkg -i
+  153  dpkg-i
+  154  dpkg -i
+  155  sudo apt-get -f install dpkg
+  156  dpkg -i
+  157  dpkg -l
+  158  dpkg -l|more
+  159  dpkg -r mc
+  160  sudo dpkg -r mc
+  161  ls
+  162  dpkg -L
+  163  sudo dpkg -L
+  164  sudo dpkg -L mc
+  165  sudo apt-get -f install mc
+  166  sudo dpkg -L
+  167  sudo dpkg -L mc
+  168  which mc
+  169  which ls
+  170  dpkg -S bin/ls
+  171  which man
+  172  dpkg -S /usr/bin/man
+  173  history > "historial05"
