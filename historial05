@@ -1,0 +1,106 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  cd
+    6  ls -l
+    7  man ls
+    8  cat /etc/passwd
+    9  info ls
+   10  wich
+   11  man wich
+   12  man witch
+   13  tty
+   14  whatis ls
+   15  whatis pwd
+   16  whatis passwd
+   17  cd
+   18  cd /media/alumno/
+   19  cd
+   20  pwd
+   21  cd /
+   22  pwd
+   23  cd
+   24  clear
+   25  mkdir -p Principal/{datos/{personales,backup},Fotos/{compartidas,bloqueadas},Historial}
+   26  cd ./Principal/
+   27  tree
+   28  cd
+   29  tree
+   30  history < "historial.txt"
+   31  history > "historial.txt"
+   32  tree
+   33  cp ./historial.txt ./Principal/Historial/ && rm ./historial.txt 
+   34  tree
+   35  /etc/pass >"dato.txt"
+   36  /etc/passwd >"dato.txt"
+   37  echo cat /etc/passwd > "dato.txt"
+   38  tree
+   39  cp ./datos.txt ./Principal/datos/personales/
+   40  mr ./dato.txt && mr ./datos.txt
+   41  rm ./dato.txt && rm ./datos.txt
+   42  tree
+   43  /etc/passwd <"dato.txt"
+   44  /etc/passwd < ./Principal/datos/personales/"dato.txt"
+   45  /etc/passwd < ./Principal/datos/personales/"datos.txt"
+   46  /etc/passwd > ./Principal/datos/personales/"datos.txt"
+   47  tree
+   48  cp /etc/passwd ./Principal/datos/personales/datos.txt 
+   49  mv ./Descargas/imagen.jpg ./Principal/Fotos/compartidas/
+   50  mv ./Descargas/imagen.pnj ./Principal/Fotos/compartidas/
+   51  mv ./Descargas/imagen.png ./Principal/Fotos/compartidas/
+   52  tree
+   53  mv ./Principal/Fotos/compartidas/imagen.png ./Principal/Fotos/bloqueadas/
+   54  tree
+   55  history > ./Principal/Historial/historial.txt 
+   56  cd /
+   57  lsa
+   58  ls
+   59  ls pipe les
+   60  ls pipeles
+   61  ls pipe less
+   62  ls less
+   63  less
+   64  ls 
+   65  pipe
+   66  less
+   67  pipe les
+   68  pipe less
+   69  man pipe
+   70  ls pipe
+   71  ls
+   72  pipe
+   73  pipe less
+   74  ls pipe less
+   75  ls /less
+   76  ls / les
+   77  ls / less
+   78  ls 
+   79  | less
+   80  |less
+   81  ls |less
+   82  ls |head3
+   83  ls |head 3
+   84  ls |head3
+   85  ls | head3
+   86  ls |head3
+   87* 
+   88  ls |tail
+   89  ls |head -3|tail -1
+   90  ls |head -3|tail
+   91  ls |head -3
+   92  ls |head -3|tail
+   93  ls |tail -3
+   94  tree
+   95  q
+   96  }C+}
+   97  CD
+   98  ce
+   99  cd
+  100  tree
+  101  history
+  102  ls /media/ && echo "hoola"
+  103  ls /medias/ && echo "hoola"
+  104  ls /media/ && echo "hoola"
+  105  tree
+  106  history > "historial05"
