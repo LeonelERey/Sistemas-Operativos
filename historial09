@@ -1,0 +1,216 @@
+    1  apt-get update && apt-get upgrade
+    2  apt-cache search kernel-header
+    3  apt-cache search linux-headers
+    4  apt-get install linux-header
+    5  apt-get install linux-headers
+    6  apt-get install linux-headers-$(uname -r)
+    7  apt-cache search build
+    8  apt-cache search build | more
+    9  apt-get install build-essential
+   10  apt-get install lvm mdadm tree less git mc
+   11  apt-get install lvm2 mdadm tree less git mc
+   12  cd /media/alumno/VBOXADDITIONS_5.1.8_111374/
+   13  ls -l
+   14  ./VBoxLinuxAdditions.run 
+   15  apt-get clean
+   16  reboot
+   17  pwd
+   18  useradd
+   19  useradd gonzalez
+   20  cat /etc/passwd
+   21  cat /etc/shadow
+   22  passwd gonzalez
+   23  cat /etc/shadow
+   24  cat /etc/shadow | grep gonzalez
+   25  id gonzalez
+   26  id alumno
+   27  usermod -s binbash 
+   28  usermod -s binbash gonzalez
+   29  cat /etc/shadow | grep gonzalez
+   30  usermod -s /bin/bash gonzalez
+   31  cat /etc/shadow | grep gonzalez
+   32  login 
+   33  exit
+   34  useradd -s /bin/bash -m -c "uruario de pruebas" Uprueba
+   35  cat /etc/shadow | grep Uprueba
+   36  passwd Uprueba
+   37  cat /etc/shadow | grep Uprueba
+   38  echo "hola" > saludar
+   39  ls -la | grep saludar
+   40  echo "echo" "hola a todos" >> saludar
+   41  cat /saludar
+   42  cat saludar
+   43  echo "echo" "hola a todos" > saludar
+   44  cat saludar
+   45  ls -la | grep saludar
+   46  chmod 777 saludar
+   47  ls -la | grep saludar
+   48  ./saludar 
+   49  cd /home/alumno/
+   50  chmod 766 saludar
+   51  echo "echo" "hola a todos" > saludar
+   52  chmod 766 saludar
+   53  login
+   54  chmod 764 saludar
+   55  login
+   56  sudo chown Uprueba saludar
+   57  login
+   58  ./saludar 
+   59  ls -la | grep saludar
+   60  exit
+   61  ls -la | grep saludar}
+   62  ls -la | grep saludar
+   63  cd /home/alumno
+   64  ./saludar
+   65  sudo chown Uprueba saludar
+   66  ./saludar
+   67  exit
+   68  id uPrueba
+   69  id Uprueba
+   70  id alumno
+   71  useradd -g "super" -s /bin/bash -m -c "super heroe"
+   72  useradd -g "alumno" -s /bin/bash -m -c "super heroe"
+   73  useradd "alumno" -s /bin/bash -m -c "super heroe"
+   74  useradd -g "alumno" -s /bin/bash -m -c "super heroe"
+   75  useradd -s /bin/bash -m -c "super" -G super 
+   76  useradd -s /bin/bash -m -c "super" -G alumno
+   77  ls -la | grep super
+   78  useradd -s /bin/bash -m -c "super" -G poder super
+   79  useradd -s /bin/bash -m -c "super" -G alumno super
+   80  ls -la | grep super
+   81  cd /home/alumno
+   82  ls -la | grep super
+   83  cd /home
+   84  ls -la | grep super
+   85  id super
+   86  useradd -s /bin/bash -m -c "heroe1" -G alumno -g super heroe1
+   87  ls -la | grep heroe1/
+   88  id heroe
+   89  id heroe1
+   90  useradd -s /bin/bash -m -c "heroe2" -G alumno heroe3
+   91  id heroe2
+   92  useradd -s /bin/bash -m -c "heroe3" -G alumno -G heroe2 -g super heroe3
+   93  id heroe3
+   94  useradd -s /bin/bash -m -c "heroe3" -G alumno,heroe2 -g super heroe3
+   95  useradd -s /bin/bash -m -c "heroe4" -G alumno,heroe2 -g super heroe4
+   96  id heroe4
+   97  cat /etc/group
+   98  usermod -G alumno
+   99  id heroe4
+  100  cat /etc/gshadow
+  101  usermod -G heroe2 heroe1
+  102  cat /etc/gshadow
+  103  usermod -G heroe2 heroe2
+  104  cat /etc/gshadow
+  105  pwd
+  106  tree
+  107  cd /heroe2
+  108  pwd
+  109  paswd
+  110  passwd
+  111  passpwd
+  112  passwd
+  113  passwd heroe2
+  114  heroe2
+  115  cd /home/heroe2
+  116  echo "echo""hola gente del grupo" > heroes
+  117  tree
+  118  pwd
+  119  echo "hola gente del grupo" > heroes
+  120  gpasswd heroe2
+  121  exit
+  122  chmod 440 heroes
+  123  cd home
+  124  cd /home
+  125  chmod 440 heroes
+  126  tree
+  127  cd /home/heroe2
+  128  chmod 440 heroes
+  129  exit
+  130  chmod 440 heroes
+  131  cd /home/heroe2
+  132  chmod 440 heroes
+  133  gpasswd heroe2
+  134  exit
+  135  cd /home/heroe2
+  136  gpasswd heroes
+  137  groupadd hola
+  138  usermod -G hola heroe2
+  139  id heroe2
+  140  clear
+  141  exit
+  142  groupadd contable
+  143  groupadd recursos
+  144  useradd -s /bin/bash -m -c "cont" -g contable cont
+  145  id cont
+  146  useradd -s /bin/bash -m -c "recu" -g contable recu
+  147  useradd -s /bin/bash -m -c "recu" -g recursos recu
+  148  rm recu
+  149  rm /home/recu/
+  150  rmkdir /home/recu/
+  151  rmdir /home/recu/
+  152  rmdir -9 /home/recu/
+  153  usermod recu recurfdeasf
+  154  usermod -l recu
+  155  usermod -l recu reupertads
+  156  usermod -l recuasdsad recu
+  157  cd /home
+  158  tree
+  159  usermod -
+  160  usermod 
+  161  usermod -g recursos recu
+  162  cd /home
+  163  tree
+  164  usermod -g recursos recu
+  165  cd ..
+  166  useradd -s /bin/bash -m -c "recu" -g recursos recu
+  167  useradd -s /bin/bash -m -c "recu" -g recursos recur
+  168  useradd -s /bin/bash -m -c "pablo" -G recursos pablo
+  169  useradd -s /bin/bash -m -c "juan" -G contable juan
+  170  useradd -s /bin/bash -m -c "juan" -G recursos juan
+  171  modadd -G recursos juan
+  172  usermod -G recursos juan
+  173  mkdir /recursos
+  174  chmod 740 /recursos/
+  175  id cont
+  176  id recur
+  177  id pablo
+  178  id juan
+  179  id juan
+  180  usermod -G recursos juan
+  181  id juan
+  182  chmod 740 pablo
+  183  chmod 740 recu
+  184  cd /home
+  185  chmod 740 recu
+  186  chmod 740 recur
+  187  chmod 740 pablo
+  188  cat /etc/shadow
+  189  cat /etc/
+  190  cat /etc/passwd
+  191  cd ..
+  192  pwd
+  193  mkdir recursos
+  194  chmod 740 pabloclear
+  195  id juan
+  196  id pablo
+  197  id recur
+  198  id cont
+  199  ls -la
+  200  cd /home
+  201  ls -la
+  202  chmod 760 juan
+  203  ls -la
+  204  chmod 760 pablo
+  205  chmod 760 recursos
+  206  cd
+  207  chmod 760 recursos
+  208  chmod 760 /recursos
+  209  cd /home
+  210  chmod 760 recur
+  211  ls -la
+  212  cd
+  213  ld -la
+  214  ls -la
+  215  exit
+  216  history > "historial09"
